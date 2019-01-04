@@ -8,6 +8,6 @@
     <title>Document</title>
 </head>
 <body>
-<img src="http://yuwenb.oss-cn-beijing.aliyuncs.com/huixuan/images/web.jpg?Expires=1546347177&OSSAccessKeyId=TMP.AQFW9qeV89QuGds3-ieI3Lai3mHY6N-zjGD7jQiDEFbaPQV2MT7ewNDRfUDAADAtAhQpXQygAUSOvn4U26wlN4lflCm9yAIVAMgEESkY3hNmpI-2bGHWpOBVoMD3&Signature=HTwPjFDEMlvQvUuKhYeTH2ssICk%3D" alt="">
+<img src="http://yuwenb.oss-cn-beijing.aliyuncs.com/huixuan/images/web.jpg" alt="">
 </body>
 </html>

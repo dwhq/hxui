@@ -3,7 +3,7 @@
 
 /**
  * A helper file for Laravel 5, to provide autocomplete information to your IDE
- * Generated for Laravel 5.7.19 on 2019-01-04 07:52:03.
+ * Generated for Laravel 5.7.19 on 2019-01-07 06:50:23.
  *
  * This file should not be included in your code, only analyzed by your IDE!
  *
@@ -13368,6 +13368,290 @@ namespace Illuminate\Support\Facades {
  
 }
 
+namespace Encore\Admin\Facades { 
+
+    /**
+     * Class Admin.
+     *
+     */ 
+    class Admin {
+        
+        /**
+         * Returns the long version of Laravel-admin.
+         *
+         * @return string The long application version
+         * @static 
+         */ 
+        public static function getLongVersion()
+        {
+            return \Encore\Admin\Admin::getLongVersion();
+        }
+        
+        /**
+         * 
+         *
+         * @param $model
+         * @param \Closure $callable
+         * @return \Encore\Admin\Grid 
+         * @deprecated since v1.6.1
+         * @static 
+         */ 
+        public static function grid($model, $callable)
+        {
+            return \Encore\Admin\Admin::grid($model, $callable);
+        }
+        
+        /**
+         * 
+         *
+         * @param $model
+         * @param \Closure $callable
+         * @return \Encore\Admin\Form @deprecated since v1.6.1
+         * @static 
+         */ 
+        public static function form($model, $callable)
+        {
+            return \Encore\Admin\Admin::form($model, $callable);
+        }
+        
+        /**
+         * Build a tree.
+         *
+         * @param $model
+         * @return \Encore\Admin\Tree 
+         * @static 
+         */ 
+        public static function tree($model, $callable = null)
+        {
+            return \Encore\Admin\Admin::tree($model, $callable);
+        }
+        
+        /**
+         * Build show page.
+         *
+         * @param $model
+         * @param mixed $callable
+         * @return \Encore\Admin\Show 
+         * @deprecated since v1.6.1
+         * @static 
+         */ 
+        public static function show($model, $callable = null)
+        {
+            return \Encore\Admin\Admin::show($model, $callable);
+        }
+        
+        /**
+         * 
+         *
+         * @param \Closure $callable
+         * @return \Encore\Admin\Layout\Content 
+         * @deprecated since v1.6.1
+         * @static 
+         */ 
+        public static function content($callable = null)
+        {
+            return \Encore\Admin\Admin::content($callable);
+        }
+        
+        /**
+         * 
+         *
+         * @param $model
+         * @return mixed 
+         * @static 
+         */ 
+        public static function getModel($model)
+        {
+            return \Encore\Admin\Admin::getModel($model);
+        }
+        
+        /**
+         * Left sider-bar menu.
+         *
+         * @return array 
+         * @static 
+         */ 
+        public static function menu()
+        {
+            return \Encore\Admin\Admin::menu();
+        }
+        
+        /**
+         * Get admin title.
+         *
+         * @return \Config 
+         * @static 
+         */ 
+        public static function title()
+        {
+            return \Encore\Admin\Admin::title();
+        }
+        
+        /**
+         * Get current login user.
+         *
+         * @return mixed 
+         * @static 
+         */ 
+        public static function user()
+        {
+            return \Encore\Admin\Admin::user();
+        }
+        
+        /**
+         * Set navbar.
+         *
+         * @param \Closure|null $builder
+         * @return \Encore\Admin\Navbar 
+         * @static 
+         */ 
+        public static function navbar($builder = null)
+        {
+            return \Encore\Admin\Admin::navbar($builder);
+        }
+        
+        /**
+         * Get navbar object.
+         *
+         * @return \Encore\Admin\Widgets\Navbar 
+         * @static 
+         */ 
+        public static function getNavbar()
+        {
+            return \Encore\Admin\Admin::getNavbar();
+        }
+        
+        /**
+         * Register the auth routes.
+         *
+         * @return void 
+         * @static 
+         */ 
+        public static function registerAuthRoutes()
+        {
+            \Encore\Admin\Admin::registerAuthRoutes();
+        }
+        
+        /**
+         * Extend a extension.
+         *
+         * @param string $name
+         * @param string $class
+         * @return void 
+         * @static 
+         */ 
+        public static function extend($name, $class)
+        {
+            \Encore\Admin\Admin::extend($name, $class);
+        }
+        
+        /**
+         * 
+         *
+         * @param callable $callback
+         * @static 
+         */ 
+        public static function booting($callback)
+        {
+            return \Encore\Admin\Admin::booting($callback);
+        }
+        
+        /**
+         * 
+         *
+         * @param callable $callback
+         * @static 
+         */ 
+        public static function booted($callback)
+        {
+            return \Encore\Admin\Admin::booted($callback);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */ 
+        public static function disablePjax()
+        {
+            return \Encore\Admin\Admin::disablePjax();
+        }
+        
+        /**
+         * Add css or get all css.
+         *
+         * @param null $css
+         * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View|void 
+         * @static 
+         */ 
+        public static function css($css = null)
+        {
+            return \Encore\Admin\Admin::css($css);
+        }
+        
+        /**
+         * 
+         *
+         * @param null $css
+         * @return array|void 
+         * @static 
+         */ 
+        public static function baseCss($css = null)
+        {
+            return \Encore\Admin\Admin::baseCss($css);
+        }
+        
+        /**
+         * Add js or get all js.
+         *
+         * @param null $js
+         * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View|void 
+         * @static 
+         */ 
+        public static function js($js = null)
+        {
+            return \Encore\Admin\Admin::js($js);
+        }
+        
+        /**
+         * 
+         *
+         * @param null $js
+         * @return array|void 
+         * @static 
+         */ 
+        public static function baseJs($js = null)
+        {
+            return \Encore\Admin\Admin::baseJs($js);
+        }
+        
+        /**
+         * 
+         *
+         * @param string $script
+         * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View|void 
+         * @static 
+         */ 
+        public static function script($script = '')
+        {
+            return \Encore\Admin\Admin::script($script);
+        }
+        
+        /**
+         * 
+         *
+         * @return string 
+         * @static 
+         */ 
+        public static function jQuery()
+        {
+            return \Encore\Admin\Admin::jQuery();
+        }
+         
+    }
+ 
+}
+
 
 namespace  { 
 
@@ -15797,8 +16081,34 @@ namespace  {
     class Validator extends \Illuminate\Support\Facades\Validator {}
 
     class View extends \Illuminate\Support\Facades\View {}
+
+    class Admin extends \Encore\Admin\Facades\Admin {}
  
 }
 
 
 
+namespace Illuminate\Support {
+    /**
+     * Methods commonly used in migrations
+     *
+     * @method Fluent after(string $column) Add the after modifier
+     * @method Fluent charset(string $charset) Add the character set modifier
+     * @method Fluent collation(string $collation) Add the collation modifier
+     * @method Fluent comment(string $comment) Add comment
+     * @method Fluent default($value) Add the default modifier
+     * @method Fluent first() Select first row
+     * @method Fluent index(string $name = null) Add the in dex clause
+     * @method Fluent on(string $table) `on` of a foreign key
+     * @method Fluent onDelete(string $action) `on delete` of a foreign key
+     * @method Fluent onUpdate(string $action) `on update` of a foreign key
+     * @method Fluent primary() Add the primary key modifier
+     * @method Fluent references(string $column) `references` of a foreign key
+     * @method Fluent nullable(bool $value = true) Add the nullable modifier
+     * @method Fluent unique(string $name = null) Add unique index clause
+     * @method Fluent unsigned() Add the unsigned modifier
+     * @method Fluent useCurrent() Add the default timestamp value
+     * @method Fluent change() Add the change modifier
+     */
+    class Fluent {}
+}

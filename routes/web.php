@@ -11,9 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/','home\indexController@index');
 Route::prefix('/')->group(function () {
     Route::get('index','home\indexController@index');
 });

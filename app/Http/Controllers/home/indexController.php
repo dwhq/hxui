@@ -3,14 +3,11 @@
 namespace App\Http\Controllers\home;
 
 use App\Model\image;
-use Encore\Admin\Widgets\Table;
-use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use Illuminate\Support\Facades\DB;
 
 class indexController extends Controller
 {
-    public function index(image $image,Table $table)
+    public function index(image $image)
     {
         $list = $image->where([['status',1]])->paginate(6);
         $app  = $image->where([['status',1],['type','app']])->paginate(6);
@@ -21,6 +18,16 @@ class indexController extends Controller
             'app'  => $app,
             'web'  => $web,
             'logo' => $logo,
+        ]);
+    }
+    public function about()
+    {
+        return view('home/about');
+    }
+    public function content(image $image)
+    {
+        return view('home/content',[
+            'data'=>$image
         ]);
     }
 }

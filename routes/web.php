@@ -14,4 +14,6 @@
 Route::get('/','home\indexController@index');
 Route::prefix('/')->group(function () {
     Route::get('index','home\indexController@index');
+    Route::get('about','home\indexController@about');
+    Route::get('content/{image}','home\indexController@content');
 });

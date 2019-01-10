@@ -1,0 +1,290 @@
+/*****     主页样式表      *****/
+boby{
+	font: 12px pingfangSC 冬青黑 思源黑体 黑体 微软雅黑;
+
+}
+/*设置banner背景底纹*/
+.banner{
+	background-image: url(../img/graphy.png);
+	height: 700px;
+	width: 100%;
+}
+/*设置header宽度1200px 居中页面*/
+.header{
+	height: 100px;
+	width: 1200px;
+	margin: 0 auto;
+	
+}
+/*设置logo*/
+.banner .header .img-logo{
+	float: left;
+	height:24px ;
+	width:20px ;
+    margin-top: 38px ;
+	margin-left: 40px;
+}
+/*设置个人设计网站*/
+.title{
+	font-size: 16px ;
+	float: left;
+	line-height: 100px;
+	margin-left: 14px;
+	
+}
+/*设置导航右边边距*/
+.banner-nav{
+	margin-right:40px;
+	
+}
+/*设置nav右边浮动*/
+.banner-nav li{
+	float: right;
+	line-height: 100px;
+	
+}
+
+
+/*设置右边边距*/
+.about-me{
+	margin-left:58px ;
+}
+/*设置banner中文字的区域，宽高，上边距 文字字体大小、颜色、加粗*/
+.banner-font{
+	width: 1120px;
+	height: 398px;
+	margin: 100px auto 0 auto;
+	font-size: 40px;
+	color: #333;
+	font-weight: bold;
+}
+/*设置文字区域左边浮动*/
+.font-left{
+	float: left;
+}
+/*设置文字font1 font3的字体大小颜色*/
+.banner-font .font1, .font3{
+	font-size: 20px;
+	color: #a8a8a8;
+}
+/*设置文字font2的字体间距 上边距*/
+.banner-font .font2{
+	
+	letter-spacing:4px;
+	margin-top: 48px;
+}
+/*设置文字区域色块*/
+.color-block{
+	display: block;
+	height: 10px;
+	width: 35px;
+	background: #333333;
+	margin-top: 18px;
+}
+/*设置文字font3*/
+.banner-font .font3{
+	
+	letter-spacing:4px;
+	margin-top: 14px;
+}
+/*设置文字font4*/
+.banner-font .font4{
+	
+	font-size: 20px;
+	letter-spacing:4px;
+	margin-top: 10px;
+}
+/*为banner下方文字区域开启定位*/
+.bottom-font{
+	font-size: 12px;
+	position: relative;
+
+}
+/*为banner下方文字font5开启定位*/
+.banner-font .font5{
+	
+	position: absolute;
+	top: 388px;''
+}
+/*为banner下方文字font6开启定位*/
+.banner-font .font6{
+	
+	position: absolute;
+	top: 388px;
+	left: 505px;
+		
+}
+/*为banner下方文字font6开启定位*/
+.banner-font .font7{
+	
+	position: absolute;
+	top: 388px;
+	left: 1042px;
+	
+}
+/*内容导航块*/
+.content-nav{
+	margin-top: 60px;
+	width: 1200px;
+	height: 52px;
+	margin: 0 auto;
+	margin-top:60px;
+	font-size: 16px;
+	color: #999;
+	
+}
+/*内容区域导航块*/
+.content-nav .an-li{
+	width: 680px;
+	height: 52px;
+	margin: 0 auto;
+}
+
+
+
+/*内容区域导航 点击伪类*/
+.content-nav .an-li a:hover{
+	font-weight: bold;
+	color: #333333;
+	
+	
+}
+
+/*内容区域导航浮动*/
+.content-nav li{
+	float: left;
+	
+	
+}
+.an-li-left{
+	width: 180px;
+}
+
+.content-nav .all{
+	width: 140px;
+}
+/*内容区域导航字体设置*/
+.content-nav li a{
+	display: block;
+    color: #999;
+	line-height: 52px;
+	text-align: center;
+}
+
+
+/*内容区域宽度*/
+.content{
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+/*内容左1 2*/
+.content .content-box{
+	height: 418px;
+	width: 370px;
+	float: left;
+	margin-right: 45px;
+	margin-bottom: 50px;
+}
+/*内容右1 */
+.content .content-box1{
+	height: 418px;
+	width: 370px;
+	float: right;
+
+}
+/*图片大小 */
+.content .box{
+	height: 370px;
+	width: 370px;
+	
+}
+
+/*内容文字描述 */
+.content-box .box-font,.content-box1 .box-font{
+	font-size: 16px;
+	font-weight: bold;
+	color: #666;
+	text-align: center;
+	padding-top: 30px;
+}
+/*content高度塌陷*/
+ .clearfix:after{
+				content: "";
+				display: block;
+				clear: both;
+			}
+			
+/*footer宽高设置*/			
+.footer{
+	width: 1200px;
+	height: 250px;
+	margin: 0 auto;
+	margin-top: 200px;
+	
+	
+}
+
+/*footer线条*/
+.footer .line{
+	
+	border-bottom: #e5e5e5 solid 1px;
+}
+/*footer左1内容块*/
+.footer-nav-content1{
+	margin-top: 42px;
+	height: 146px;
+	width: 300px;
+	float: left;
+}
+/*footer左2内容块*/
+.footer-nav-content2{
+	margin-left: 100px;
+	margin-top: 42px;
+	height: 146px;
+	width: 200px;
+	float: left;
+}
+/*footer字体设置*/
+.footer-font2{
+		display: block;
+		font-size: 14px;
+		color:#666;
+		margin-top: 20px;
+		}		
+/*footer字体设置*/
+.footer-font1{
+	font-size: 14px;
+	font-weight: bold;
+	}
+	
+
+/*footer字体设置*/	
+.footer-font3{
+		display: block;
+		font-size: 14px;
+		color:#666;
+		margin-top: 40px;
+		}
+/*版权字体设置*/
+
+.weixin{
+	width: 340px;
+	height: 146px;
+	float: right;
+}
+
+.img-weixin{
+	float: right;
+	margin-top: 42px;
+
+}
+.copyright{
+	display: block;
+	float: right;
+	margin-top: 26px;
+	font-size: 14px;
+	color:#666;
+}
+
+

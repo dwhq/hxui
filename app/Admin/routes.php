@@ -17,5 +17,5 @@ Route::group([
     $router->delete('/image/{id}', 'ImageController@destroy');
     $router->get('/image/{id}/edit', 'ImageController@edit');
     $router->put('image/{id}', 'ImageController@update');
-
+    $router->post('/upload', 'uploadController@upload');
 });

@@ -1,0 +1,204 @@
+html{
+    height: 100%;
+}
+
+body{
+	
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+	width: 100%;
+	font: 14px "PingFang SC","Lantinghei SC","Microsoft YaHei","HanHei SC","Helvetica Neue","Open Sans",Arial,"Hiragino Sans GB","微软雅黑",STHeiti,"WenQuanYi Micro Hei",SimSun,sans-serif;
+	
+}
+
+/*设置header宽度1300px 居中页面*/
+.header{
+	height: 100px;
+	width: 1300px;
+	margin: 0 auto;
+	flex: 0 0 auto;
+}
+
+/*header 左边DIV*/
+.header-left{
+	height: 100px;
+	float: left;
+}
+
+/*header 右边DIV*/
+.header-right{
+	height: 100px;
+	float: right;
+}
+
+/*设置logo*/
+.header .img-logo{
+	float: left;
+	height:24px ;
+	width:20px ;
+  line-height: 100px;
+}
+
+/*设置个人设计网站*/
+.title{
+	font-size: 16px ;
+	float: left;
+	line-height: 100px;
+	margin-left: 14px;
+}
+
+/*设置nav右边浮动*/
+.banner-nav li{
+	float: right;
+	line-height: 100px;
+	
+	
+}
+/*导航文字移入效果*/
+.banner-nav a:hover{
+color:#666666;
+}
+
+/*设置右边边距*/
+.about-me{
+	padding-left:58px ;
+}
+
+
+/*关于我们设置*/
+.about-centent{
+	width: 1300px;
+	height: 560px;
+	margin: 0 auto;
+	margin-top: 40px;
+	flex: 1 0 auto;
+}
+
+/*关于我们设置图片向左浮动*/
+.about-img{
+	float: left;
+}
+
+/*关于我们设置文字内容宽度*/
+.about-centent-font{
+	float: left;
+	width: 700px;
+	margin-top: 20px;
+	margin-left: 100px;
+}
+
+/*关于我们设置h2 h3文字样式*/
+.about-centent-font h2,h3{
+	font-weight: bold;
+	font-size: 20px;
+	padding: 8px 0;
+	letter-spacing: 3px;
+}
+
+/*关于我们设置分割线样式*/
+.about-line{
+	display: block;
+	border-bottom: #e5e5e5 solid 1px;
+}
+/*关于我们设置p标签文字样式*/
+
+.about-centent-font p{
+	font-size: 14px;
+	padding: 20px 0;
+	letter-spacing: 3px;
+	font-weight: 400;
+	line-height: 30px;
+	color: #666;
+
+	
+}
+
+.footer-back{
+	width: 1300px;
+	height: 250px;
+	margin: 0 auto;
+   flex: 0 0 auto;
+}
+
+/*footer宽高设置*/			
+.footer{
+	width: 100%;
+	height: 250px;
+	font-weight: 300;
+	flex: 0 0 auto;
+
+}
+
+/*footer线条*/
+.footer .line{
+	border-bottom: #e5e5e5 solid 1px;
+}
+
+/*footer左1内容块*/
+.footer-nav-content1{
+	margin-top: 42px;
+	width: 300px;
+	float: left;
+}
+
+/*footer左2内容块*/
+.footer-nav-content2{
+	margin-left: 100px;
+	margin-top: 42px;
+	width: 200px;
+	height: 160px;
+	float: left;
+}
+
+/*footer字体设置*/
+.footer-font2{
+		display: block;
+		font-size: 14px;
+		color:#666;
+		margin-top: 20px;
+		font-weight: 300;
+		height: 40px;
+}		
+	
+/*footer字体设置*/
+.footer-font1{
+	font-size: 14px;
+}
+	
+/*footer字体设置*/	
+.footer-font3{
+		display: block;
+		font-size: 14px;
+		color:#666;
+		margin-top: 40px;
+		height: 35px;
+		line-height: 20px;
+}
+	
+		/*网址移入变色*/
+.font-www a:hover{
+		color:#1970ff;
+}
+		
+/*版权字体设置*/
+.weixin{
+	width: 440px;
+	float: right;
+}
+
+/*微信图片设置*/
+.img-weixin{
+	float: right;
+	margin-top: 42px;
+}
+
+/*版权字体设置*/
+.copyright{
+	display: block;
+	float: right;
+	margin-top: 30px;
+	font-size: 14px;
+	font-weight: 300;
+	color:#666;
+}

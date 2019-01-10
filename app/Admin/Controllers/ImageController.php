@@ -139,8 +139,9 @@ class ImageController extends Controller
         $form = new Form(new image);
         $form->text('title', '标题');
         $form->text('url', '输入跳转链接')->default('#');
-        $form->image('site','图片')->uniqueName();
+        $form->image('site','封面图片')->uniqueName();
         $form->select('type','分类')->options($type);
+        $form->ueditor('content', '输入内容');
         $form->textarea('remark', '输入备注');
         $states = [
             'on'  => ['value' => 0, 'text' => '隐藏', 'color' => 'danger'],

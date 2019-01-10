@@ -175,6 +175,7 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,//代码提示
+        Stevenyangecho\UEditor\UEditorServiceProvider::class,//百度编辑器
 
     ],
 
@@ -224,6 +225,7 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+        'UEditor'=>Stevenyangecho\UEditor\UEditorServiceProvider::class,//百度编辑器
 
     ],
 

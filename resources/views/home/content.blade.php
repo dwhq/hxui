@@ -85,5 +85,6 @@
         </div>
     </div>
 </div>
+@include('home._returnTop')
 </body>
 </html>

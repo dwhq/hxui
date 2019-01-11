@@ -158,8 +158,7 @@
         </div>
     </div>
 </div>
-
-
+@include('home._returnTop')
 </body>
 <script>
     var list = document.querySelectorAll('.content');

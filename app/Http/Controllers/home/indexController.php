@@ -9,10 +9,10 @@ class indexController extends Controller
 {
     public function index(image $image)
     {
-        $list = $image->where([['status',1]])->paginate(6);
-        $app  = $image->where([['status',1],['type','app']])->paginate(6);
-        $web  = $image->where([['status',1],['type','web']])->paginate(6);
-        $logo = $image->where([['status',1],['type','logo']])->paginate(6);
+        $list = $image->where([['status',1]])->get();
+        $app  = $image->where([['status',1],['type','app']])->get();
+        $web  = $image->where([['status',1],['type','web']])->get();
+        $logo = $image->where([['status',1],['type','logo']])->get();
         return view('home/index',[
             'list' => $list,
             'app'  => $app,

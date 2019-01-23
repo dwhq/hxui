@@ -9,7 +9,7 @@ Route::group([
     'namespace'     => config('admin.route.namespace'),
     'middleware'    => config('admin.route.middleware'),
 ], function (Router $router) {
-
+    $router->post('auth/login', 'AuthController@postLogin');
     $router->get('/', 'HomeController@index');
     $router->get('/image', 'ImageController@index');
     $router->get('/image/create', 'ImageController@create');

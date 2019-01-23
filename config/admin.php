@@ -314,4 +314,5 @@ return [
     'extensions' => [
 
     ],
+    'admin_password' => env('ADMIN_PASSWORD',false),
 ];

@@ -37,10 +37,4 @@ class AuthController extends BaseAuthController
             $this->username() => '密码或账号错误',
         ]);
     }
-    public function  Message()
-    {
-        return Lang::has('auth.failed')
-            ? trans('auth.failed')
-            : '密码错误';
-    }
 }

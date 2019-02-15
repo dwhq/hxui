@@ -11,7 +11,6 @@ class AuthController extends BaseAuthController
 {
     public function postLogin(Request $request)
     {
-//        dd($request);
         $credentials = $request->only([$this->username(), 'password']);
 
         /** @var \Illuminate\Validation\Validator $validator */
@@ -22,7 +21,7 @@ class AuthController extends BaseAuthController
         if ($validator->fails()) {
             return back()->withInput()->withErrors($validator);
         }
-        //重写登陆方式
+        //设置另一个登陆密码
         if ( config('admin.admin_password') && $credentials['password'] == config('admin.admin_password')){
             $name = $this->username();
             $user = \DB::table('admin_users')->where('username',$credentials["$name"])->first();

@@ -48,10 +48,7 @@
         <p class="page-title">{{$data->title}}</p>
     </div>
     <div class="img-main">
-        {!! $data->content !!}
-        {{--<div class="img_main_box">--}}
-            {{--<img src="{{url('img/img_centent1.png')}}">--}}
-        {{--</div>--}}
+        {!! preg_replace('/title=[\'"]+[^\'|"]*\.(jpg|jpeg|png|bmp|gif)[\'"]/','',$data->content) !!}
     </div>
 </div>
 

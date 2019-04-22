@@ -52,13 +52,14 @@
     <div class="about-centent-font animated fadeInRight ">
         <h2 >惠旋</h2>
         <h3>UI设计师</h3>
-        <p>吉他爱好者、资深电影看客、游戏发烧友、18级业余围棋、动漫</p>
+        <p>爱好：吉他、电影、游戏、围棋、动漫</p>
         <p>陕西西安，95年，2年工作经验，目前在陕西万企软件有限公司从事UI设计师，主要负责公司外包项目的UI视觉设计部分，包括APP端界面设计、web界面设计、交互原型图等。</p>
         <span class="about-line"></span>
-        <p>2018年与朋友成立了独角兽工作室，担任视觉设计。<br/>
-            工作室包括前端工程师、PHP工程师、JAVA工程师、UI设计师，主要提供品牌官网 / 手机网站 / 商场平台 / 营销型网站/ H5多屏响应式 / 微信小程序/网站的二次开发维护等</p>
+        <p>个人能力<br/>
+            熟练掌握PS、AI、sketch、axure、AE、Xmind等设计软件，热爱设计行业并了解设计流行趋势；熟悉产品开发流程、产品规划、需求分析、交互设计；对于自己严格要求，具有良好的团队意识以及自我学习能力。
+        </p>
         <span class="about-line"></span>
-        <p>如果你对我们感兴趣，请马上联系我们获取免费咨询报价服务。</p>
+        <p>如果你对我感兴趣，请联系我。</p>
     </div>
 
 
@@ -81,7 +82,7 @@
             <h4 class="footer-font1">视觉设计&amp;网站开发</h4>
             <p class="footer-font2">品牌官网 / 手机网站 / 商场平台 / 营销型网站
                 / H5多屏响应式 / 微信 小程序开发</p>
-            <p class="footer-font3 font-www">联系网址<br/><a href="#" class="footer-font1">www.Unicornstudio.com </a> </p>
+            <p class="footer-font3 font-www">联系网址<br/><a href="#" class="footer-font1">huixuanui.cn</a> </p>
         </div>
         <div class="footer-nav-content2">
             <h4 class="footer-font1">联系方式</h4>

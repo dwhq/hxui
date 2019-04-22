@@ -59,7 +59,7 @@
             <p class="font6 animated fadeInUp">QQ : <a
                         href="http://wpa.qq.com/msgrd?v=3&uin=552343468&site=qq&menu=yes"
                         style="color: #999">{{config('qq')}}</a></p>
-            <p class="font7 animated fadeInUp">独角兽工作室</p>
+            <p class="font7 animated fadeInUp">微信:hx552343468</p>
         </div>
     </div>
 </div>
@@ -139,7 +139,7 @@
             <h4 class="footer-font1">视觉设计&amp;网站开发</h4>
             <p class="footer-font2">品牌官网 / 手机网站 / 商场平台 / 营销型网站
                 / H5多屏响应式 / 微信 小程序开发</p>
-            <p class="footer-font3 font-www">联系网址<br/><a href="#" class="footer-font1">www.Unicornstudio.com </a></p>
+            <p class="footer-font3 font-www">联系网址<br/><a href="#" class="footer-font1">http://huixuanui.cn </a></p>
         </div>
         <div class="footer-nav-content2">
             <h4 class="footer-font1">联系方式</h4>
